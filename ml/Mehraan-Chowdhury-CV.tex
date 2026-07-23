@@ -27,6 +27,11 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
+% ATS: never hyphenate words across line breaks — split words break keyword matching
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
 \titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
 \titlespacing*{\section}{0pt}{14pt}{4pt}
 
@@ -98,21 +103,25 @@ Holds a Master of Philosophy from the University of Western Australia, with a th
 \noindent\textbf{Bachelor of Science (Neuroscience)} \\
 \textit{University of Melbourne} \hfill Mar 2013 - Nov 2015
 
-\section*{Technical Skills}
-\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
-    \item \textbf{Languages:} Python, Java, JavaScript, HTML5, CSS3, SQL, Bash
-    \item \textbf{Machine Learning:} PyTorch, scikit-learn, NumPy, Pandas, SciPy, Matplotlib, Optuna, Hugging Face, NLTK, Jupyter
-    \item \textbf{AI tooling:} Claude Code, Cline, Claude, ChatGPT, Gemini, Llama, DeepSeek
-    \item \textbf{Computer Vision:} OpenCV, PIL, Open3D, trimesh, MeshLab, CloudCompare
-    \item \textbf{APIs \& Integration:} REST APIs, JSON, LLM APIs (Anthropic, OpenAI)
-    \item \textbf{Web automation:} Beautiful Soup, Selenium / ChromeDriver, Playwright
-    \item \textbf{Tools \& Methods:} Git, GitHub, Docker, Linux, LaTeX, Agile, Waterfall
-\end{itemize}
 \section*{Publications}
 \begin{itemize}
     \item M. Chowdhury, M. Bennamoun, F. Boussaid, S. M. Shamsul Islam, "Classifying Obstructive Sleep Apnea from 3D Facial Images Using Automated Landmark Detection and Geodesic Distances," \textit{2025 IEEE Conference on Future Machine Learning and Data Science (FMLDS)}, Los Angeles, 2025, pp. 602-607. \href{https://doi.org/10.1109/FMLDS67896.2025.00098}{doi: 10.1109/FMLDS67896.2025.00098}
     \item M. Chowdhury, M. Bennamoun, F. Boussaid, S. M. Shamsul Islam, "Automatic Detection of Peripheral Facial Landmarks Using 3D Facial Data," \textit{2024 IVCNZ Conference on Image and Vision Computing New Zealand}, Christchurch, 2024, pp. 1-6. \href{https://doi.org/10.1109/IVCNZ64857.2024.10794203}{doi: 10.1109/IVCNZ64857.2024.10794203}
 \end{itemize}
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+    \item \textbf{Languages:} Python, Java, JavaScript, HTML5, CSS3, SQL, Bash
+    \item \textbf{Machine Learning \& Deep Learning:} PyTorch, scikit-learn, CUDA, Convolutional Neural Networks (CNNs), Graph Convolutional Networks (GCNs), Transformers, feature engineering, fine-tuning, transfer learning, hyperparameter optimisation (Optuna), cross-validation, ablation studies
+    \item \textbf{Data \& Scientific Computing:} NumPy, Pandas, SciPy, Matplotlib, Jupyter Notebook
+    \item \textbf{Natural Language Processing (NLP):} BERT, Hugging Face, NLTK, ChatGPT API
+    \item \textbf{Computer Vision \& 3D:} OpenCV, PIL, Open3D, trimesh, MeshLab, CloudCompare, NetworkX, point clouds, 3D meshes
+    \item \textbf{AI tooling:} Claude Code, Cline, Claude, ChatGPT, Gemini, Llama, DeepSeek
+    \item \textbf{APIs \& Integration:} REST APIs, JSON, LLM APIs (Anthropic, OpenAI)
+    \item \textbf{Web automation:} Beautiful Soup, Selenium, ChromeDriver, Playwright
+    \item \textbf{Tools \& Methods:} Git, GitHub, Docker, Linux, LaTeX, Agile, Waterfall
+\end{itemize}
+\section*{Languages}
+English (IELTS 8.0), Bengali
 \section*{References}
 \noindent\textbf{Mohammed Bennamoun} \\
 \textit{Professor}, School of Physics, Mathematics and Computing \\
